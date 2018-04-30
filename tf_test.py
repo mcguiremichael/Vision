@@ -1,3 +1,11 @@
+'''
+
+    This code is an edited version of tensorflow's Deep MNIST for Experts
+    URL: https://www.tensorflow.org/versions/r1.1/get_started/mnist/pros
+
+'''
+
+
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
